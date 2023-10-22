@@ -549,4 +549,241 @@ Button */
 }
 
 
+/* /////////////////////////////////////////////////////////////////////////////////////////////////
+LoginDialog */
+#LoginDialog QLineEdit {
+    background-color: white;
+    color: black;
+	border-radius: 5px;
+	border: 1px solid #C0C0C0;
+	padding-left: 10px;
+	selection-color: rgb(255, 255, 255);
+	selection-background-color: rgb(255, 121, 198);
+}
+#LoginDialog QLabel {
+    color: black;
+    font-family: "NanumGothic";
+    font-size: 10pt;
+}
+#LoginDialog QPushButton {
+    color: black;
+    font-family: "NanumGothic";
+    font-size: 10pt;
+	width: 100px;
+}
+#LoginDialog #btn_plan {
+    color: black;
+    font-family: "NanumGothic";
+    font-size: 10pt;
+	width: 150px;
+}
+#LoginDialog QTabWidget QTabBar::tab {
+    color: black;
+    font-family: "NanumGothic";
+    font-size: 10pt;
+}
+#LoginDialog #loginTab::pane {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: white;
+}
+#LoginDialog QCheckBox {
+    color: black;
+    font-family: "NanumGothic";
+    font-size: 10pt;
+}
+#LoginDialog #bottomBar QLabel {
+    color: #B0B0B0;
+}
+#LoginDialog QCheckBox::indicator {
+    border: 1px solid #C0C0C0;
+	width: 15px;
+	height: 15px;
+    background: white;
+	border-radius: 4px;
+}
+#LoginDialog QCheckBox::indicator:hover {
+    border: 2px solid #C0C0C0;
+}
+#LoginDialog QCheckBox::indicator:checked {
+	border: 1px solid #C0C0C0;
+	width: 15px;
+	height: 15px;
+    background: white;
+	border-radius: 4px;
+	background-image: url(:/icons/images/icons/cil-check-alt-black.png);
+}
+#LoginDialog #title {
+    background-color: rgb(40, 44, 52);
+    border-image: url(:/images/images/images/Shobot_horizontal.png) 0 0 0 0 stretch stretch;
+	background-repeat: no-repeat;
+}
+#LoginDialog #contentBottom{
+	border-top: 3px solid rgb(40, 44, 52);
+}
 
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////
+RegisterDialog */
+
+#RegisterDialog QLineEdit {
+    height: 31px;
+    background-color: white;
+    color: black;
+	border-radius: 5px;
+	border: 1px solid #C0C0C0;
+	padding-left: 10px;
+	selection-color: rgb(255, 255, 255);
+	selection-background-color: rgb(255, 121, 198);
+}
+#RegisterDialog QLabel {
+    font-family: "NanumGothic";
+    font-size: 9pt;
+    color: black;
+}
+#RegisterDialog #label_signup {
+    font-family: "NanumGothic";
+    font-size: 13pt;
+    color: white;
+    font-weight: bold;
+}
+#RegisterDialog #label_description {
+    font-family: "NanumGothic";
+    font-size: 10pt;
+    color: white;
+}
+#RegisterDialog #tooltip_parcelService {
+    font-family: "NanumGothic";
+    font-size: 8pt;
+    color: black;
+}
+#RegisterDialog #link_terms {
+    font-size: 9pt;
+}
+#RegisterDialog #link_privacyStatement {
+    font-size: 9pt;
+}
+#RegisterDialog QPushButton {
+    color: black;
+    font-family: "NanumGothic";
+    font-size: 10pt;
+}
+#RegisterDialog QCheckBox::indicator {
+    border: 1px solid #C0C0C0;
+	width: 15px;
+	height: 15px;
+    background: white;
+	border-radius: 4px;
+}
+#RegisterDialog QCheckBox::indicator:hover {
+    border: 2px solid #C0C0C0;
+}
+#RegisterDialog QCheckBox::indicator:checked {
+	border: 1px solid #C0C0C0;
+	width: 15px;
+	height: 15px;
+    background: white;
+	border-radius: 4px;
+	background-image: url(:/icons/images/icons/cil-check-alt-black.png);
+}
+#RegisterDialog QComboBox {
+    background-color: white;
+    color: black;
+	border-radius: 5px;
+	border: 1px solid #C0C0C0;
+}
+#RegisterDialog QComboBox QAbstractItemView {
+    background-color: white;
+    color: black;
+}
+#RegisterDialog QComboBox QScrollBar:vertical {
+    border: none;
+    background: lightgrey;
+    width: 10px;
+    margin: 0;
+}
+#RegisterDialog QComboBox QScrollBar::handle:vertical {
+    background: grey;
+}
+#RegisterDialog QComboBox::drop-down {
+    border-left: 1px solid #C0C0C0;
+}
+#RegisterDialog QComboBox QScrollBar::add-line:vertical, 
+#RegisterDialog QComboBox QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+    height: 0;
+}
+#RegisterDialog #contentBottom_1 {
+    background-color: white;
+	border-radius: 5px;
+}
+#RegisterDialog #contentBottom_2 {
+    background-color: white;
+	border-radius: 5px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////
+ShopConnectDialog */
+
+#shopConnectDialog QLabel {
+    font-family: "Segoe UI";
+    font-size: 10pt;
+    color: black;
+}
+#shopConnectDialog QPushButton {
+    font-family: "Segoe UI";
+    font-size: 10pt;
+    color: black;
+}
+#shopConnectDialog QTabWidget QTabBar::tab {
+    color: black;
+    font-family: "Segoe UI";
+    font-size: 10pt;
+}
+#shopConnectDialog QCheckBox {
+    color: black;
+    font-family: "Segoe UI";
+    font-size: 10pt;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////
+PasswordResetDialog */
+
+#PasswordResetDialog QLineEdit {
+    background-color: white;
+    color: black;
+	border-radius: 5px;
+	border: 1px solid #C0C0C0;
+	padding-left: 10px;
+	selection-color: rgb(255, 255, 255);
+	selection-background-color: rgb(255, 121, 198);
+}
+#PasswordResetDialog QLabel {
+    color: black;
+    font-family: "NanumGothic";
+    font-size: 10pt;
+}
+#PasswordResetDialog #label_passwordReset {
+    font-family: "NanumGothic";
+    font-size: 13pt;
+    color: white;
+    font-weight: bold;
+}
+#PasswordResetDialog QPushButton {
+    color: black;
+    font-family: "NanumGothic";
+    font-size: 10pt;
+	width: 100px;
+}
+#PasswordResetDialog #resetInfo {
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#PasswordResetDialog #resetEmail {
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
